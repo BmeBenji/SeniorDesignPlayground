@@ -22,7 +22,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
 
         // Create and populate a List of planet names.
         String[] planets = new String[] { "Mercury", "Venus", "Earth", "Mars",
-                "Jupiter", "Saturn", "Uranus", "Neptune"};
+                "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto"};
         ArrayList<String> planetList = new ArrayList<String>();
         planetList.addAll( Arrays.asList(planets) );
 
