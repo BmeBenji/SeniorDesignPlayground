@@ -4,7 +4,10 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import static android.provider.AlarmClock.EXTRA_MESSAGE;
 
@@ -23,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         //intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }
-
+/*
     private class MyAdapter extends BaseAdapter {
         @Override
         public int getCount() {
@@ -55,6 +58,6 @@ public class MainActivity extends AppCompatActivity {
                     .setText(getItem(position));
             return convertView;
         }
-    }
+    } */
 }
 
